@@ -1,0 +1,7 @@
+- https://www.hackerrank.com/challenges/hackerrank-in-a-string/problem
+- https://www.hackerrank.com/challenges/birthday-cake-candles/problem
+- https://www.hackerrank.com/challenges/find-digits/problem
+- https://www.hackerrank.com/challenges/circular-array-rotation/problem
+- https://www.hackerrank.com/challenges/electronics-shop/problem
+- https://www.hackerrank.com/challenges/mark-and-toys/problem
+
