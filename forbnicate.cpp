@@ -14,15 +14,19 @@ int forbnicate(unsigned int x) {
     x = x<<1; 
 
     // step 3 
-    int bitLength = std::bitset<8>(x).size();
+     unsigned int l =  std::log2(x)+1;
+    if (l<8)
+        {
+            l =std::bitset<8>(x).size();
+        }
+    //int bitLength = std::bitset<8>(x).size();
     //unsigned int l =  std::log2(x)+1;
-        for (int i = bitLength -8 ; i < bitLength; i++) //bon na3ref eli ça peut générer des erruer ken plus petit que 6 Juste test
+        for (int i = l -8 ; i < l; i++) //bon na3ref eli ça peut générer des erruer ken plus petit que 6 Juste test
 {
        x = (x^ (1 << i));
 }
 return x;
 }
-
 
 
 int main() {
